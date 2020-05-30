@@ -3,7 +3,19 @@ package com.cadastro.produto.dao;
 import java.sql.*;
 
 public class TesteDAO {
+/*
+create database cadastroproduto;
 
+create table produto(
+   id INT NOT NULL AUTO_INCREMENT,
+   nome VARCHAR(100) NOT NULL,
+   data DATE,
+   PRIMARY KEY ( id )
+);
+
+select * from produto;
+
+*/
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
